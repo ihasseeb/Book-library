@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    padding: 20px;
+    background-image: url("pic1.jpg");
+    background-size:cover;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: 662549;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    -webkit-text-fill-color:#ccc;
+}
+
+.search, .book-form, .book-list, .history {
+    margin: 20px 0;
+}
+
+.search{
+    width: 80%;
+}
+.book-form{
+       width: 80%;
+}
+h2 {
+/* background-image: url("stairs.jpg"); */
+ /* background-size: contain;   */
+-webkit-text-fill-color: #ccc;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #e4e4e4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
